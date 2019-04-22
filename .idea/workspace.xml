@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57211cbf-e48b-4d5d-a371-37c9c0d01914" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/_config/theme.yml" beforeDir="false" afterPath="$PROJECT_DIR$/app/_config/theme.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/Includes/BreadCrumbs.ss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/Includes/Footer.ss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/Includes/Header.ss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/Includes/Navigation.ss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/Includes/SideBar.ss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/Includes/SidebarMenu.ss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/Layout/Page.ss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/Layout/Page_results.ss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/Page.ss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/blockquote.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/Page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/controllers/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/simple" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/.htaccess" afterDir="false" />
     </list>
@@ -13,11 +28,77 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="28">
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composer.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-140">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.rb">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="HomePage.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/pages/HomePage.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
+              <folding>
+                <element signature="e#28#37#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomePageController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/controllers/HomePageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding>
+                <element signature="e#33#52#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page.ss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/Layout/Page.ss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fileend</find>
+      <find># Block invalid file extensions</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,6 +109,22 @@
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/app/_config/theme.yml" />
         <option value="$PROJECT_DIR$/app/_config/app.yml" />
+        <option value="$PROJECT_DIR$/app/src/HomePage.php" />
+        <option value="$PROJECT_DIR$/app/src/ContactPage.php" />
+        <option value="$PROJECT_DIR$/app/src/ManufacturersPage.php" />
+        <option value="$PROJECT_DIR$/app/src/NewsPage.php" />
+        <option value="$PROJECT_DIR$/app/templates/app/composer.json" />
+        <option value="$PROJECT_DIR$/public/assets/.htaccess" />
+        <option value="$PROJECT_DIR$/vendor/silverstripe/assets/templates/SilverStripe/Assets/Flysystem/PublicAssetAdapter_HTAccess.ss" />
+        <option value="$PROJECT_DIR$/app/src/HandmadePage.php" />
+        <option value="$PROJECT_DIR$/app/templates/Includes/Footer.ss" />
+        <option value="$PROJECT_DIR$/app/templates/Page.ss" />
+        <option value="$PROJECT_DIR$/app/templates/Layout/HomePage.ss" />
+        <option value="$PROJECT_DIR$/app/templates/Includes/Navigation.ss" />
+        <option value="$PROJECT_DIR$/app/templates/Layout/Page.ss" />
+        <option value="$PROJECT_DIR$/app/src/pages/HomePage.php" />
+        <option value="$PROJECT_DIR$/app/src/controllers/HomePageController.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
       </list>
     </option>
   </component>
@@ -38,14 +135,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths>
-      <path value="$PROJECT_DIR$/vendor/league/flysystem/docs/package.json" />
-      <path value="$PROJECT_DIR$/vendor/silverstripe/admin/package.json" />
-      <path value="$PROJECT_DIR$/vendor/silverstripe/asset-admin/package.json" />
-      <path value="$PROJECT_DIR$/vendor/silverstripe/campaign-admin/package.json" />
-      <path value="$PROJECT_DIR$/vendor/silverstripe/cms/package.json" />
-      <path value="$PROJECT_DIR$/vendor/silverstripe/versioned-admin/package.json" />
-    </packageJsonPaths>
+    <packageJsonPaths />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -120,11 +210,9 @@
       <path value="$PROJECT_DIR$/vendor/silverstripe/vendor-plugin" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="418" />
-    <option name="y" value="23" />
-    <option name="width" value="1502" />
-    <option name="height" value="1177" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -153,6 +241,38 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="adler-brillen.de" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adler-brillen.de" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adler-brillen.de" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adler-brillen.de" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adler-brillen.de" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adler-brillen.de" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adler-brillen.de" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adler-brillen.de" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adler-brillen.de" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adler-brillen.de" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -167,9 +287,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/controllers" />
+      <recent name="$PROJECT_DIR$/app/src/pages" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/app/templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/model" />
+      <recent name="$PROJECT_DIR$/app/src/controllers" />
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -196,35 +322,41 @@
       <option name="presentableId" value="Default" />
       <updated>1554136762374</updated>
       <workItem from="1554136763988" duration="1122000" />
+      <workItem from="1554209380979" duration="35000" />
+      <workItem from="1554227782621" duration="2762000" />
+      <workItem from="1554243198785" duration="1632000" />
+      <workItem from="1554452734885" duration="56000" />
+      <workItem from="1555923491952" duration="1454000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1122000" />
+    <option name="totallyTimeSpent" value="7061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="418" y="23" width="1502" height="1177" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Scheme.REPL" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Scheme.REPL" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16117969" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,19 +366,28 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+    <entry file="file://$PROJECT_DIR$/app/templates/Includes/Footer.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="84">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/app/templates/Includes/Navigation.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Includes/Footer.ss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        <state relative-caret-position="84">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Includes/Navigation.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/_config/app.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -255,10 +396,193 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pages/ContactPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Layout/ContactPage.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Layout/HomePage.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Layout/ManufacturersPage.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Includes/Navigation.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Layout/NewsPage.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/_config/theme.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pages/ManufacturersPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pages/NewsPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/app/composer.json" />
+    <entry file="file://$PROJECT_DIR$/app/src/pages/ContactPage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Layout/ContactPage.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Layout/ManufacturersPage.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pages/HandmadePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Layout/HandmadePage.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/silverstripe/assets/templates/SilverStripe/Assets/Flysystem/PublicAssetAdapter_HTAccess.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="677">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_config/theme.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Layout/NewsPage.ss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_config/app.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/controllers/NewsPageController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Includes/Navigation.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1792">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Page.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1973">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Layout/Page.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Includes/Footer.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/Layout/HomePage.ss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1990">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/pages/HomePage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="52" column="80" selection-start-line="52" selection-start-column="80" selection-end-line="52" selection-end-column="80" />
+          <folding>
+            <element signature="e#28#37#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/controllers/HomePageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <element signature="e#33#52#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
         </state>
       </provider>
     </entry>

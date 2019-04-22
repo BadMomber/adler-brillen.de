@@ -1,0 +1,249 @@
+/*****************************************
+* Colors
+*****************************************/
+$white: #ffffff;
+$black: #000000;
+
+$primary: #f07b00;
+$grey-dark: #404040;
+$grey-mid: #535353;
+$grey-light-1:#d6d6d6;
+$grey-light-2:#a7a7a7;
+
+$errorcolor: #e01916;
+$successcolor: #4cae00;
+
+
+/*****************************************
+* Paddings & Margins
+*****************************************/
+
+$basic-margin-top: 6rem;
+
+$basic-padding-top: 6rem;
+$basic-padding-sides: 2rem;
+
+
+/*****************************************
+* Bootstrap forms & inputs
+*****************************************/
+
+$input-btn-padding-y:         .375rem !default;
+$input-btn-padding-x:         .75rem !default;
+$input-btn-font-family:       null !default;
+$input-btn-font-size:         16px !default;
+$input-btn-line-height:       1.8 !default;
+
+$input-btn-focus-width:       .2rem !default;
+
+$input-btn-padding-y-sm:      .25rem !default;
+$input-btn-padding-x-sm:      .5rem !default;
+
+$input-btn-padding-y-lg:      .5rem !default;
+$input-btn-padding-x-lg:      1rem !default;
+
+
+
+// Buttons
+//
+// For each of Bootstrap's buttons, define text, background, and border color.
+
+$btn-padding-y:               $input-btn-padding-y !default;
+$btn-padding-x:               $input-btn-padding-x !default;
+$btn-font-family:             $input-btn-font-family !default;
+$btn-font-size:               $input-btn-font-size !default;
+$btn-line-height:             $input-btn-line-height !default;
+
+$btn-padding-y-sm:            $input-btn-padding-y-sm !default;
+$btn-padding-x-sm:            $input-btn-padding-x-sm !default;
+
+$btn-padding-y-lg:            $input-btn-padding-y-lg !default;
+$btn-padding-x-lg:            $input-btn-padding-x-lg !default;
+
+
+$btn-font-weight:             400 !default;
+$btn-box-shadow:              inset 0 1px 0 rgba($white, .15), 0 1px 1px rgba($black, .075) !default;
+$btn-focus-width:             $input-btn-focus-width !default;
+$btn-disabled-opacity:        .65 !default;
+$btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
+
+
+$btn-block-spacing-y:         .5rem !default;
+
+// Allows for customizing button radius independently from global border radius
+
+
+$btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+
+
+// Forms
+
+$label-margin-bottom:                   .5rem !default;
+
+$input-padding-y:                       $input-btn-padding-y !default;
+$input-padding-x:                       $input-btn-padding-x !default;
+$input-font-family:                     $input-btn-font-family !default;
+$input-font-size:                       $input-btn-font-size !default;
+$input-font-weight:                     500 !default;
+$input-line-height:                     $input-btn-line-height !default;
+
+$input-padding-y-sm:                    $input-btn-padding-y-sm !default;
+$input-padding-x-sm:                    $input-btn-padding-x-sm !default;
+$input-font-size-sm:                    12px !default;
+$input-line-height-sm:                  1.2 !default;
+
+$input-padding-y-lg:                    $input-btn-padding-y-lg !default;
+$input-padding-x-lg:                    $input-btn-padding-x-lg !default;
+$input-font-size-lg:                    20px !default;
+$input-line-height-lg:                  2.2 !default;
+
+$input-bg:                              $white !default;
+
+$input-color:                           $black !default;
+$input-border-color:                    $grey-light-2 !default;
+$input-border-width:                    1px !default;
+$input-box-shadow:                      inset 0 1px 1px rgba($black, .075) !default;
+
+$input-border-radius:                   0 !default;
+$input-border-radius-lg:                6px !default;
+$input-border-radius-sm:                2px !default;
+
+$input-focus-bg:                        $input-bg !default;
+$input-focus-border-color:              lighten($grey-light-2, 25%) !default;
+$input-focus-color:                     $input-color !default;
+$input-focus-width:                     $input-btn-focus-width !default;
+$input-focus-box-shadow:                none !default;
+
+$input-placeholder-color:               $grey-dark !default;
+$input-plaintext-color:                 $black !default;
+
+$input-height-border:                   $input-border-width * 2 !default;
+
+$input-height-inner:                    calc(#{$input-line-height * 1em} + #{$input-padding-y * 2}) !default;
+$input-height-inner-half:               calc(#{$input-line-height * .5em} + #{$input-padding-y}) !default;
+$input-height-inner-quarter:            calc(#{$input-line-height * .25em} + #{$input-padding-y / 2}) !default;
+
+$input-height:                          calc(#{$input-line-height * 1em} + #{$input-padding-y * 2} + #{$input-height-border}) !default;
+$input-height-sm:                       calc(#{$input-line-height-sm * 1em} + #{$input-btn-padding-y-sm * 2} + #{$input-height-border}) !default;
+$input-height-lg:                       calc(#{$input-line-height-lg * 1em} + #{$input-btn-padding-y-lg * 2} + #{$input-height-border}) !default;
+
+$input-transition:                      border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+
+$form-text-margin-top:                  .25rem !default;
+
+$form-check-input-gutter:               1.25rem !default;
+$form-check-input-margin-y:             .3rem !default;
+$form-check-input-margin-x:             .25rem !default;
+
+$form-check-inline-margin-x:            .75rem !default;
+$form-check-inline-input-margin-x:      .3125rem !default;
+
+$form-grid-gutter-width:                10px !default;
+$form-group-margin-bottom:              1rem !default;
+
+$input-group-addon-color:               $input-color !default;
+$input-group-addon-bg:                  $grey-light-1 !default;
+$input-group-addon-border-color:        $input-border-color !default;
+
+$custom-forms-transition:               background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
+
+$custom-control-gutter:                 .5rem !default;
+$custom-control-spacer-x:               1rem !default;
+
+$custom-control-indicator-size:         1rem !default;
+$custom-control-indicator-bg:           $input-bg !default;
+
+$custom-control-indicator-bg-size:      50% 50% !default;
+$custom-control-indicator-box-shadow:   $input-box-shadow !default;
+$custom-control-indicator-border-color: $grey-light-2 !default;
+$custom-control-indicator-border-width: $input-border-width !default;
+
+
+$custom-control-indicator-checked-box-shadow:   none !default;
+
+$custom-control-indicator-focus-box-shadow:     $input-focus-box-shadow !default;
+$custom-control-indicator-focus-border-color:   $input-focus-border-color !default;
+
+$custom-control-indicator-active-box-shadow:    none !default;
+
+
+$custom-checkbox-indicator-indeterminate-box-shadow:   none !default;
+
+$custom-radio-indicator-border-radius:          50% !default;
+
+$custom-switch-width:                           $custom-control-indicator-size * 1.75 !default;
+$custom-switch-indicator-border-radius:         $custom-control-indicator-size / 2 !default;
+$custom-switch-indicator-size:                  calc(#{$custom-control-indicator-size} - #{$custom-control-indicator-border-width * 4}) !default;
+
+$custom-select-padding-y:           $input-padding-y !default;
+$custom-select-padding-x:           $input-padding-x !default;
+$custom-select-font-family:         $input-font-family !default;
+$custom-select-font-size:           $input-font-size !default;
+$custom-select-height:              $input-height !default;
+$custom-select-indicator-padding:   1rem !default; // Extra padding to account for the presence of the background-image based indicator
+$custom-select-font-weight:         $input-font-weight !default;
+$custom-select-line-height:         $input-line-height !default;
+$custom-select-color:               $input-color !default;
+$custom-select-bg:                  $input-bg !default;
+$custom-select-bg-size:             8px 10px !default; // In pixels because image dimensions
+
+$custom-select-feedback-icon-padding-right: calc((1em + #{2 * $custom-select-padding-y}) * 3 / 4 + #{$custom-select-padding-x + $custom-select-indicator-padding}) !default;
+$custom-select-feedback-icon-position:      center right ($custom-select-padding-x + $custom-select-indicator-padding) !default;
+$custom-select-feedback-icon-size:          $input-height-inner-half $input-height-inner-half !default;
+
+$custom-select-border-width:        $input-border-width !default;
+$custom-select-border-color:        $input-border-color !default;
+$custom-select-box-shadow:          inset 0 1px 2px rgba($black, .075) !default;
+
+$custom-select-focus-border-color:  $input-focus-border-color !default;
+$custom-select-focus-width:         $input-focus-width !default;
+
+$custom-select-padding-y-sm:        $input-padding-y-sm !default;
+$custom-select-padding-x-sm:        $input-padding-x-sm !default;
+$custom-select-font-size-sm:        $input-font-size-sm !default;
+$custom-select-height-sm:           $input-height-sm !default;
+
+$custom-select-padding-y-lg:        $input-padding-y-lg !default;
+$custom-select-padding-x-lg:        $input-padding-x-lg !default;
+$custom-select-font-size-lg:        $input-font-size-lg !default;
+$custom-select-height-lg:           $input-height-lg !default;
+
+$custom-range-track-width:          100% !default;
+$custom-range-track-height:         .5rem !default;
+$custom-range-track-cursor:         pointer !default;
+$custom-range-track-border-radius:  1rem !default;
+$custom-range-track-box-shadow:     inset 0 .25rem .25rem rgba($black, .1) !default;
+
+$custom-range-thumb-width:                   1rem !default;
+$custom-range-thumb-height:                  $custom-range-thumb-width !default;
+$custom-range-thumb-border:                  0 !default;
+$custom-range-thumb-border-radius:           1rem !default;
+$custom-range-thumb-box-shadow:              0 .1rem .25rem rgba($black, .1) !default;
+$custom-range-thumb-focus-box-shadow-width:  $input-focus-width !default; // For focus box shadow issue in IE/Edge
+
+$custom-file-height:                $input-height !default;
+$custom-file-height-inner:          $input-height-inner !default;
+$custom-file-focus-border-color:    $input-focus-border-color !default;
+$custom-file-focus-box-shadow:      $input-focus-box-shadow !default;
+
+$custom-file-padding-y:             $input-padding-y !default;
+$custom-file-padding-x:             $input-padding-x !default;
+$custom-file-line-height:           $input-line-height !default;
+$custom-file-font-family:           $input-font-family !default;
+$custom-file-font-weight:           $input-font-weight !default;
+$custom-file-color:                 $input-color !default;
+$custom-file-bg:                    $input-bg !default;
+$custom-file-border-width:          $input-border-width !default;
+$custom-file-border-color:          $input-border-color !default;
+$custom-file-border-radius:         $input-border-radius !default;
+$custom-file-box-shadow:            $input-box-shadow !default;
+$custom-file-button-color:          $custom-file-color !default;
+$custom-file-button-bg:             $input-group-addon-bg !default;
+$custom-file-text: (
+		en: "Browse"
+) !default;
+
+
+// Form validation
+
+$form-feedback-margin-top:          $form-text-margin-top !default;
